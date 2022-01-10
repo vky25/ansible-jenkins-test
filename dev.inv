@@ -1,0 +1,2 @@
+[dbservers]
+20.127.122.0 ansible_ssh_user=azureuser
