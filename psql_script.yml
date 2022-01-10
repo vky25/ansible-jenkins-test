@@ -1,0 +1,7 @@
+---
+- name: postgreSQL database installation and configuration
+  hosts: all
+  become: true
+  become_user: root
+  roles:
+     - setup-postgresql
