@@ -1,3 +1,3 @@
 [dbservers]
-20.127.56.235 ansible_ssh_user=azureuser
+13.68.218.187 ansible_ssh_user=azureuser
 #20.127.122.0 ansible_ssh_user=azureuser
