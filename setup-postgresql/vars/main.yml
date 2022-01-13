@@ -2,4 +2,5 @@
 # vars file for setup-postgresql
     db_user: dbusername
     db_name: dbname
-    db_password: dbpassword
+    db_password: ${vault_password_test}
+    ANSIBLE_DEMO: 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
