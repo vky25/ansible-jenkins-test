@@ -8,7 +8,7 @@ pipeline{
         }
          stage('SCM private checkout'){
             steps{
-                git branch: 'main', url: 'https://vky:{{ANSIBLE_DEMO}}@github.com/vky25/vault_password_test.git'
+                git branch: 'main', credentialsId: 'git_private_key', url: 'https://github.com/vky25/vault_password_test.git'
             }
          }    
         stage('Execute ansible'){
